@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <title>Loading scripts</title>
+  <meta charset="utf-8" />
+  <body>
+    <svg>
+      <script href="./classic.js"></script>
+    </svg>
+    <svg>
+      <script type="module" href="./module.js" crossorigin></script>
+    </svg>
+    <svg>
+      <script defer href="./defer.js"></script>
+    </svg>
+    <svg>
+      <script async href="./async.js"></script>
+    </svg>
+    <p>Check console output for script load details.</p>
+  </body>
+</html>
